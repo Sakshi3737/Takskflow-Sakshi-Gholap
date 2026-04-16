@@ -37,7 +37,7 @@ Tradeoffs
 
 3. Running Locally
 
-git clone https://github.com/your-name/taskflow
+git clone https://github.com/Sakshi3737/Taskflow
 cd taskflow
 cp .env.example .env
 docker compose up --build
