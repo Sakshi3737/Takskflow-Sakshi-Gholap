@@ -1,0 +1,36 @@
+<div class="container">
+
+  <h1>TaskFlow</h1>
+
+  <!-- LOGIN -->
+  <div id="login">
+    <input id="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- APP -->
+  <div id="app" style="display:none;">
+    <button onclick="logout()">Logout</button>
+
+    <h2>Projects</h2>
+    <input id="pname" placeholder="Project name">
+    <button onclick="createProject()">Create</button>
+
+    <ul id="projects"></ul>
+
+    <h2>Tasks</h2>
+    <input id="taskTitle" placeholder="Task">
+    <select id="status">
+      <option value="todo">Todo</option>
+      <option value="in_progress">In Progress</option>
+      <option value="done">Done</option>
+    </select>
+
+    <button onclick="createTask()">Add Task</button>
+    <ul id="tasks"></ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
